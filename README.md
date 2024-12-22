@@ -1,1 +1,1 @@
-# Deep Models for Stroke Segmentation: Do Complex Architectures Always Perform Better?
+# <p align=center>`Deep Models for Stroke Segmentation: Do Complex Architectures Always Perform Better?`</p> #
