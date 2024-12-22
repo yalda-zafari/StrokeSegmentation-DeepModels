@@ -17,7 +17,7 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 - [Results](#results)
   - [ISLES 2022](#isles_results)
   - [ATLAS v2.0](#atlas_results)
-- [Key Outcomes](#key-outcomes)
+- [Key Findings](#key-findings)
 - [Links to Resources](#links-to-resources)
 
 ## Deep Models
@@ -49,8 +49,13 @@ We used two publicly accessible datasets for stroke segmentation to ensure suffi
 
 ### <a name="atlas_results"></a> ATLAS v2.0
 
-##  Key Outcomes
-
+##  Key Findings
+- The nnU-Net, with its simple architecture, outperformed more complex models.
+- Local information captured by CNN layers is highly informative and cannot be fully replaced by the global features provided by Transformers for stroke segmentation.
+- Pre- and post-processing steps are critical and should not be overlooked in favor of solely architectural design.
+- Transformers face challenges when handling imbalanced data distributions, such as variations in the number of lesions per slide.
+- A thoughtful integration of CNN layers and Transformers is crucial for enhancing the performance of deep models in stroke segmentation.
+  
 ## Links to Resources
 - [DAE-Former Repository](https://github.com/xmindflow/DAEFormer)
 - [LKA/DLKA Repository](https://github.com/xmindflow/deformableLKA)
