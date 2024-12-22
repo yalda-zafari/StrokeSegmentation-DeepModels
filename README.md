@@ -31,6 +31,15 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 ### nnU-Net
 
 ## Datasets
+We used two publicly accessible datasets for stroke segmentation to ensure sufficient data diversity and volume for training deep neural networks:
+
+1. ISLES 2022:
+  - Contains 400 MRI cases (250 public, 150 private).
+  - Features diverse infarct patterns and imaging from three medical centers.
+  - Includes DWI, ADC, and FLAIR modalities (we used only DWI images).
+
+ATLAS v2.0:
+  - Includes 955 T1-weighted MRI cases (655 public with lesion masks, 300 without).
 
 
 
