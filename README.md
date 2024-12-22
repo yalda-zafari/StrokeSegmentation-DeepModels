@@ -8,16 +8,43 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 
 
 ## Table of Content
-- [Deep Models](#models)
-  - [DAE-Former](#dae)
-  - [LKA and DLKA](#dlka)
+- [Deep Models](#deep-models)
+  - [DAE-Former](#dae-former)
+  - [LKA and DLKA](#lka-and-dlka)
   - [FCT](#fct)
-  - [nnU-Net](#nnunet)
-- [Datasets](#data)
-  - [ISLES 2022](#isles)
+  - [nnU-Net](#nnu-net)
+- [Datasets](#datasets)
+  - [ISLES 2022](#isles-2022)
   - [ATLAS v2.0](#atlas)
 - [Results](#results)
-  - [ISLES 2022](#isles_result)
-  - [ATLAS v2.0](#atlas_result)
-- [Key Outcomes](#key)
-- [Links to Resources](#link)
+  - [ISLES 2022](#isles_results)
+  - [ATLAS v2.0](#atlas_results)
+- [Key Outcomes](#key-outcomes)
+- [Links to Resources](#links-to-resources)
+
+## Deep Models
+
+### DAE-Former
+
+### LKA and DLKA
+
+### FCT
+
+### nnU-Net
+
+## Datasets
+
+### ISLES 2022
+
+### <a name="atlas"></a> ATLAS v2.0
+
+## Results
+
+### <a name="isles_results"></a> ISLES 2022
+
+### <a name="atlas_results"></a> ATLAS v2.0
+
+##  Key Outcomes
+
+## Links to Resources
+
