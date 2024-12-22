@@ -38,7 +38,7 @@ We used two publicly accessible datasets for stroke segmentation to ensure suffi
   - Features diverse infarct patterns and imaging from three medical centers.
   - Includes DWI, ADC, and FLAIR modalities (we used only DWI images).
 
-ATLAS v2.0:
+2. ATLAS v2.0:
   - Includes 955 T1-weighted MRI cases (655 public with lesion masks, 300 without).
 
 
