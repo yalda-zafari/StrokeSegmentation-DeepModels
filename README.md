@@ -14,8 +14,6 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
   - [FCT](#fct)
   - [nnU-Net](#nnu-net)
 - [Datasets](#datasets)
-  - [ISLES 2022](#isles-2022)
-  - [ATLAS v2.0](#atlas)
 - [Results](#results)
   - [ISLES 2022](#isles_results)
   - [ATLAS v2.0](#atlas_results)
@@ -34,9 +32,7 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 
 ## Datasets
 
-### ISLES 2022
 
-### <a name="atlas"></a> ATLAS v2.0
 
 ## Results
 
