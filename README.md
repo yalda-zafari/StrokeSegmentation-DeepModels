@@ -36,7 +36,7 @@ We used two publicly accessible datasets for stroke segmentation to ensure suffi
 1. ISLES 2022:
   - Contains 400 MRI cases (250 public, 150 private).
   - Features diverse infarct patterns and imaging from three medical centers.
-  - Includes DWI, ADC, and FLAIR modalities (we used only DWI images).
+  - Includes DWI, ADC, and FLAIR modalities (we used DWI images only).
 
 2. ATLAS v2.0:
   - Includes 955 T1-weighted MRI cases (655 public with lesion masks, 300 without).
