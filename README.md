@@ -40,6 +40,8 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 
 
 ### nnU-Net
+[The no new U-Net (nnU-Net)](https://github.com/MIC-DKFZ/nnUNet) framework is a self-configuring tool based on U-Net architecture without any need for manual tuning, simplifying key aspects from preprocessing to post-processing with minimal human involvement. It has demonstrated its effectiveness by surpassing existing methods across 23 public datasets, highlighting its adaptability and resilience in diverse segmentation tasks.
+
 <img src="images/nnUNet.jpg" width="70%" height="70%">
 
 
