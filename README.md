@@ -28,7 +28,7 @@ Dual Attention-guided Efficient Transformer (DAE-Former) is a pure Transformer-b
 <img src="images/DAE-Former.jpg" width="30%" height="30%">
 
 ### LKA and DLKA
-LKA (Large Kernel Attention) employs convolutional kernels larger than those in traditional methods, capturing a broader contextual view similar to the receptive fields in Transformers. LKA achieves this expanded field of view with fewer parameters compared to self-attention utilizing a combination of depth-wise and dilated convolutions. Deformable Large Kernel Attention (DLKA) introduces the ability to dynamically adjust the sampling grid in LKA by replacing some convolutional layers with deformable convolutions to facilitates an adaptive convolution kernel capable of flexibly adjusting its shape to better represent complex anatomical structures.![Uploading image.png…]()
+LKA (Large Kernel Attention) employs convolutional kernels larger than those in traditional methods, capturing a broader contextual view similar to the receptive fields in Transformers. LKA achieves this expanded field of view with fewer parameters compared to self-attention utilizing a combination of depth-wise and dilated convolutions. Deformable Large Kernel Attention (DLKA) introduces the ability to dynamically adjust the sampling grid in LKA by replacing some convolutional layers with deformable convolutions to facilitates an adaptive convolution kernel capable of flexibly adjusting its shape to better represent complex anatomical structures.
 
 <img src="images/DLKA-blocks.jpg" width="30%" height="30%">
 
