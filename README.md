@@ -25,11 +25,16 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 ### DAE-Former
 Dual Attention-guided Efficient Transformer (DAE-Former) is a pure Transformer-based U-shape architecture designed for medical image segmentation. This architecture incorporates three types of attention mechanisms: (1) efficient attention, (2) transpose attention, and (3) cross attention. Dual-attention blocks were capturing both spatial and channel information by incorporating efficient attention and transpose attention. Skip-connection cross-attention (SCCA) was employed to suppress irrelevant regions in the image during training and highlight significant features for the segmentation task.
 
-<img src="images/DAE-Former.jpg" width="50%" height="50%">
+<img src="images/DAE-Former.jpg" width="30%" height="30%">
 
 ### LKA and DLKA
+<img src="images/DLKA-blocks.jpg" width="30%" height="30%">
+
 
 ### FCT
+
+<img src="images/FCT.jpg" width="80%" height="80%">
+
 
 ### nnU-Net
 
@@ -50,7 +55,11 @@ We used two publicly accessible datasets for stroke segmentation to ensure suffi
 
 ### <a name="isles_results"></a> ISLES 2022
 
+<img src="images/ISLES-table.png" width="100%" height="100%">
+
 ### <a name="atlas_results"></a> ATLAS v2.0
+
+<img src="images/ATLAS-table.png" width="100%" height="100%">
 
 ##  Key Findings
 - The nnU-Net, with its simple architecture, outperformed more complex models.
