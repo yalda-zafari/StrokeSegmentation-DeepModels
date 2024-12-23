@@ -23,17 +23,18 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 ## Deep Models
 
 ### DAE-Former
-Dual Attention-guided Efficient Transformer (DAE-Former) is a pure Transformer-based U-shape architecture designed for medical image segmentation. This architecture incorporates three types of attention mechanisms: (1) efficient attention, (2) transpose attention, and (3) cross attention. Dual-attention blocks were capturing both spatial and channel information by incorporating efficient attention and transpose attention. Skip-connection cross-attention (SCCA) was employed to suppress irrelevant regions in the image during training and highlight significant features for the segmentation task.
+[Dual Attention-guided Efficient Transformer (DAE-Former)](https://github.com/xmindflow/DAEFormer) is a pure Transformer-based U-shape architecture designed for medical image segmentation. This architecture incorporates three types of attention mechanisms: (1) efficient attention, (2) transpose attention, and (3) cross attention. Dual-attention blocks were capturing both spatial and channel information by incorporating efficient attention and transpose attention. Skip-connection cross-attention (SCCA) was employed to suppress irrelevant regions in the image during training and highlight significant features for the segmentation task.
 
 <img src="images/DAE-Former.jpg" width="30%" height="30%">
 
 ### LKA and DLKA
-LKA (Large Kernel Attention) employs convolutional kernels larger than those in traditional methods, capturing a broader contextual view similar to the receptive fields in Transformers. LKA achieves this expanded field of view with fewer parameters compared to self-attention utilizing a combination of depth-wise and dilated convolutions. Deformable Large Kernel Attention (DLKA) introduces the ability to dynamically adjust the sampling grid in LKA by replacing some convolutional layers with deformable convolutions to facilitates an adaptive convolution kernel capable of flexibly adjusting its shape to better represent complex anatomical structures.
+[LKA (Large Kernel Attention)](https://github.com/xmindflow/deformableLKA) employs convolutional kernels larger than those in traditional methods, capturing a broader contextual view similar to the receptive fields in Transformers. LKA achieves this expanded field of view with fewer parameters compared to self-attention utilizing a combination of depth-wise and dilated convolutions. [Deformable Large Kernel Attention (DLKA)](https://github.com/xmindflow/deformableLKA) introduces the ability to dynamically adjust the sampling grid in LKA by replacing some convolutional layers with deformable convolutions to facilitates an adaptive convolution kernel capable of flexibly adjusting its shape to better represent complex anatomical structures.
 
 <img src="images/DLKA-blocks.jpg" width="30%" height="30%">
 
 
 ### FCT
+[Fully convolutional Transformer (FCT)](https://github.com/Thanos-DB/FullyConvolutionalTransformer) is a hybrid CNN-Transformer architecture which incorporates CNN layers into the architecture of Transformers to leverage CNNs’ ability to represent image features and Transformers’ capability to model long-range dependencies. The output of the Transformer block is then processed through the Wide-Focus module, which is a multi-branch convolutional paradigm.
 
 <img src="images/FCT.jpg" width="80%" height="80%">
 
