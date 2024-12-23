@@ -37,6 +37,8 @@ Dual Attention-guided Efficient Transformer (DAE-Former) is a pure Transformer-b
 
 
 ### nnU-Net
+<img src="images/nnUNet.jpg" width="70%" height="70%">
+
 
 ## Datasets
 We used two publicly accessible datasets for stroke segmentation to ensure sufficient data diversity and volume for training deep neural networks:
@@ -56,10 +58,12 @@ We used two publicly accessible datasets for stroke segmentation to ensure suffi
 ### <a name="isles_results"></a> ISLES 2022
 
 <img src="images/ISLES-table.png" width="100%" height="100%">
+<img src="images/ISLES22.png" width="100%" height="100%">
 
 ### <a name="atlas_results"></a> ATLAS v2.0
 
 <img src="images/ATLAS-table.png" width="100%" height="100%">
+<img src="images/ATLAS.png" width="100%" height="100%">
 
 ##  Key Findings
 - The nnU-Net, with its simple architecture, outperformed more complex models.
