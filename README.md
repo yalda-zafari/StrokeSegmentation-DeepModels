@@ -7,7 +7,7 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 </div>
 
 ## Updates
-- Initial release on arXiv: [Deep models for stroke segmentation: do complex architectures always perform better?](https://arxiv.org/abs/2403.17177)
+- Our Paper on IEEE Access: [Deep models for stroke segmentation: do complex architectures always perform better?](https://ieeexplore.ieee.org/abstract/document/10813166)
 - Our review paper on Artificial Intelligence Review: [Transformers-based architectures for stroke segmentation: a review](https://link.springer.com/article/10.1007/s10462-024-10900-5)
 
 
