@@ -10,6 +10,17 @@ This repository summarizes the results of our paper, "Deep Models for Stroke Seg
 - Our Paper on IEEE Access: [Deep models for stroke segmentation: do complex architectures always perform better?](https://ieeexplore.ieee.org/abstract/document/10813166)
 - Our review paper on Artificial Intelligence Review: [Transformers-based architectures for stroke segmentation: a review](https://link.springer.com/article/10.1007/s10462-024-10900-5)
 
+# Citation:
+```
+@ARTICLE{10813166,
+  author={Soliman, Ahmed and Zafari-Ghadim, Yalda and Yousif, Yousif and Ibrahim, Ahmed and Mohamed, Amr and Rashed, Essam A. and Mabrok, Mohamed A.},
+  journal={IEEE Access}, 
+  title={Deep Models for Stroke Segmentation: Do Complex Architectures Always Perform Better?}, 
+  year={2024},
+  volume={12},
+  pages={198262-198276},
+  doi={10.1109/ACCESS.2024.3522214}}
+```
 
 ## Table of Content
 - [Deep Models](#deep-models)
